@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+}
+#cabecalho {
+    background-color: #0626b8;
+    background: linear-gradient(#0626b8, #3d20dd);
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+#cabecalho img {
+    width: 750px;
+    height: 150px;
+    justify-content: center;
+}
+
+#search-form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.Local{
+    padding-top: 1%;
+    width: 50%;
+    height: 82%;
+    display: flex;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: beige;
+}
+
+a{
+    text-decoration: none;
+    color: #05001f;
+}
+a:hover{
+    color: #3d20dd;
+}
+li{ 
+    border-bottom: 1px solid #585566;
+    display: block;
+    font-size: 22px;
+    line-height: 24px;
+    text-decoration: none;
+    margin: 0 15px 6px;
+    margin-bottom: 12px;
+
+}

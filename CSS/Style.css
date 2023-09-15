@@ -3,19 +3,16 @@
     padding: 0;
 }
 
-body {
+body { /*body 1*/
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
+    background-image: url("../img/img.jpg");
+    background-size: 100%;
 }
 
 body * {
     box-sizing: border-box;
 }
-body {
-    background-image: url("img/img.jpg");
-    background-size: 1900px;
-
-  }
   .left-login {
     width: 50vw;
     height: 100vh;
@@ -48,8 +45,8 @@ body {
 }
 
 .card-login img{
-    width: 450px;
-    height: 80px;
+    width: 69%;
+    height: 100%;
 }
 
 .textfield {
@@ -107,3 +104,162 @@ body {
     background-color: #fcb214;
     color: white;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* eae galera 2 da secretaria sou eu ent eu to fingindo trabalhar devo confessar hoje é meu aniversario e poxa vida tenho que escanear e fazer prova??????
+   nem que a vaca lata meu camarada eu vou é escrever esse textão aqui uma vez a cada minuto pra pensarem que to programando. 
+   
+   já pararam pra pensar que tipo, a palavra tomar sempre se refere a algum liquido? tomar suco, tomar semem, tomar agua, etc. mas olha só, a gente tambem toma tiro, toma sol e toma remédio, foi só esses 3
+   exemplos de tomar coisas solidas que eu pensei, faz total sentido eu sei, eu devia ser professor do noslen na vida anterior.
+   
+   outra reflexão que eu tenho é que tipo, cada pessoa esta num tempo diferente, por exemplo eu to em 2023 mas o waian pode ta em 2013, e essa distancia de tempo depende de o quanto voce dorme,
+   irei explicar minha teoria, digamos que eu esteja acordado e o waian esteja dormindo, pra ele que ta dormindo, ele ja acordou e ja ta levantando, mas na minha visão eu to vendo ele dormir por umas 8
+   horas, então tipo, ele ta a 8 horas na minha frente.
+   insano né, é realmente.
+   
+   _,/~,_ 
+  ( . .. )
+   \ .. /   desenhei um morango em ascii, eu sou bom com desenhos em texto, porque eu não mato animais no minecraft, então não consigo fazer quadros de itens pra coisar os baus
+    "--"     então sou obrigado a desenhar na propria placa
+
+     ^
+   ( * )
+  {   * }  pinheiros
+  " ) ( ' 
+^^^^^^^^^^^
+
+  (-  picareta
+  t   espada
+  -D  pá
+  7   enchada
+  -S  machado
+
+  parei
+
+  cara não me mandou a dancinha do link até hoje, c ta achando que eu to brincando cara? que é algo futil? EU QUERO VER O LINK DANÇANDO BIZONHO CARA ME MANDA
+
+  euen
+
+
+  pepino pepino de novo pepino da aquela do canguru vai pepino
+
+
+  o tipo de teclado nos paises ameriacos se chata QWERTY, e ce tu perceber, são as primeiras letras do teclado, BIZARRO
+
+
+  dica gamer, se voce voce apertar control e ir clicando nas linhas, voce pode escrever varias linhas com o mesmo texto
+
+    assim, programação avançada de vs code
+    assim, programação avançada de vs code
+    assim, programação avançada de vs code
+    assim, programação avançada de vs code
+    assim, programação avançada de vs code
+    assim, programação avançada de vs code
+    assim, programação avançada de vs code
+    assim, programação avançada de vs code
+    assim, programação avançada de vs code
+
+
+    toda vez que eu uso esse pc eu fico bravo pq o mousepad fica me chamando de noob, eu não sou noob cara eu sou pro nos games
+
+
+   a fonte usada pelo vs code é a consolas, isso porque todos caracteres dela ocupam o mesmo espaço, isso deixa o codigo masis organizados, diferente do times new romain por exemplo, que é uma bagunça
+
+   /gamerule keepInventory true   <- comando pra quando morrer não perder os itens do mine
+
+*/

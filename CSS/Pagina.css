@@ -52,11 +52,12 @@ button {
     cursor: pointer;
 }
 .Local{
-    width: 100%;
-    height: 40%;
+    padding-top: 1%;
+    width: 50%;
+    height: 72%;
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 63%;
     left: 50%;
     flex-direction: column;
     border-radius: 10px;
@@ -65,14 +66,21 @@ button {
     cursor: pointer;
     color: beige;
 }
-ul{
-    background: #f7f7f7;
-    
+
+a{
+    text-decoration: none;
+    color: #05001f;
 }
-.A{
-    
+a:hover{
+    color: #3d20dd;
+}
+li{ 
+    border-bottom: 1px solid #585566;
     display: block;
     font-size: 22px;
     line-height: 24px;
-    position: relative
+    text-decoration: none;
+    margin: 0 15px 6px;
+    margin-bottom: 12px;
+
 }
