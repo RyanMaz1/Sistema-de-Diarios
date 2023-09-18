@@ -15,41 +15,43 @@ body {
     background-color: #0626b8;
     background: linear-gradient(#0626b8, #3d20dd);
     padding: 30px;
-    text-align: center;
-    justify-content: center;
 }
 
-#cabecalho img {
-    width: 750px;
-    height: 150px;
-    justify-content: center;
-}
-
-#search-form {
-    display: flex;
+#faetec {
+    left: 25.7%;
+    top: 50%;
+    width: 40%;
+    height: 40%;
     align-items: center;
-    flex-direction: row;
     justify-content: center;
+    position: relative;
 }
 
-#search-input {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+#voltar {
+    margin-bottom: 3%;
+    left: 5%;
+    top: 9%;
+    width: 4.1%;
+    height: 2%;
+    padding: 1%;
+    border-radius: 1%;
+    position: relative;
 }
-
-#search-input:focus {
-    outline: none;
-    border-color: #007bff;
-}
-
-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 8px 12px;
-    cursor: pointer;
+.materia {
+    width: 17%;
+    height: 10%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 31%;
+    left: 10%;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .Local{
     padding-top: 1%;

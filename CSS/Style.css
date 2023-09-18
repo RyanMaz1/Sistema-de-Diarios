@@ -8,6 +8,7 @@ body { /*body 1*/
     font-family: 'Noto Sans', sans-serif;
     background-image: url("../img/img.jpg");
     background-size: 100%;
+    display: block;
 }
 
 body * {

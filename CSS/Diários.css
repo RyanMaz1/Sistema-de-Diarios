@@ -1,55 +1,89 @@
 body {
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 
 #cabecalho {
-    background-color: #0626b8;
-    background: linear-gradient(#0626b8, #3d20dd);
-    padding: 30px;
-    text-align: center;
+  background-color: #0626b8;
+  background: linear-gradient(#0626b8, #3d20dd);
+  padding: 30px;
+  text-align: center;
 }
 
 #cabecalho img {
-    width: 750px;
-    height: 150px;
-    justify-content: center;
+  width: 40%;
+  height: 400%;
+  align-items: center;
+  justify-content: center;
+}
+
+#searchbar {
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input[type=text] {
+  width: 30%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 70%;
+}
+
+
+.sas {
+  display: list-item;
 }
 
 .menu {
-    position: relative;
-    display: inline-block;
-  }
-
-.ses{
-    background-color: #b97f00;
-    right: 50%;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 20%;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  position: relative;
+  display: inline-block;
 }
+
+.ses {
+  text-align: center;
+  list-style: none;
+  background: linear-gradient(#FFC605, #f77d1a);
+  /* background: linear-gradient(#b38a03, #b45c14);*/
+  right: 50%;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20%;
+  
+}
+
 .dws {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  .dws a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  .dws a:hover {background-color: #f1f1f1}
+  padding: 0%;
+  list-style: none;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.dws a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dws a:hover {
+  background-color: #f1f1f1
+}
 
 .menu:hover .dws {
   display: block;
@@ -57,5 +91,6 @@ body {
 
 
 .menu:hover .ses {
-  background-color: #ac7207;
+  /*background: linear-gradient(#836502, #723b0d);*/
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
