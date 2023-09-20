@@ -13,29 +13,25 @@ body {
   text-align: center;
 }
 
-#cabecalho img {
-  width: 40%;
-  height: 400%;
+#faetec {
+  left: -3%;
+  top: 70%;
+  width: 39.5%;
+  height: 40%;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
-#searchbar {
-  justify-content: center;
-  align-items: center;
-
-  padding: 15px;
-  border-radius: 10px;
-}
-
-input[type=text] {
-  width: 30%;
-  -webkit-transition: width 0.15s ease-in-out;
-  transition: width 0.15s ease-in-out;
-}
-
-input[type=text]:focus {
-  width: 70%;
+#voltar {
+  margin-bottom: 3%;
+  left: -23.4%;
+  top: 9%;
+  width: 2%;
+  height: 2%;
+  padding: 1%;
+  border-radius: 1%;
+  position: relative;
 }
 
 
