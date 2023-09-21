@@ -54,12 +54,12 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .Local{
-    padding-top: 1%;
+    padding-top: 2%;
     width: 50%;
-    height: 82%;
+    height: 86%;
     display: flex;
     position: absolute;
-    top: 68%;
+    top: 69%;
     left: 50%;
     flex-direction: column;
     border-radius: 10px;
