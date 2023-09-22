@@ -23,7 +23,7 @@
 
 .logo h2 {
     background-color: #3d20dd;
-    background: linear-gradient(#FFC605, #f77d1a);
+    background:#7220dd;
     width: 20%;
     height: 20%;
     display: flex;
@@ -42,7 +42,7 @@
 
 .inativos h2 {
     background-color: #0626b8;
-    background: linear-gradient(#FFC605, #f77d1a);
+    background: #7220dd;
     width: 20%;
     height: 20%;
     display: flex;
